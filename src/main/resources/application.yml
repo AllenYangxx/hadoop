@@ -1,0 +1,6 @@
+server:
+  port: 8081
+spring:
+  data:
+    mongodb:
+      uri: mongodb://172.20.10.8:27017/hadoop_user?readPreference=secondaryPreferred
